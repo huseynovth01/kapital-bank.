@@ -16,19 +16,19 @@
     <!-- Name -->
     <div class="form-group">
       <input type="text" class="form-control" name="name" id="name" placeholder="Ad" >
-    </div>
+    </div> <br>
     <!-- Surname -->
     <div class="form-group">
         <input type="text" class="form-control" name="name" id="name" placeholder="Soyad" >
-      </div>
+      </div> <br>
     <!-- Father name -->
     <div class="form-group">
         <input type="text" class="form-control" name="name" id="name" placeholder="Ata adi" >
-      </div>
+      </div> <br>
     <!-- Email -->
     <div class="form-group">
-        <input type="email" class="form-control" name="email" id="email" placeholder="E-poçt ünvanı">
-      </div>
+        <input type="email" class="form-control" name="email" id="email" placeholder="E-mail unvani">
+      </div> <br>
 
     <!--Mobil nomre -->
 
@@ -47,9 +47,41 @@
             <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="-------" required>
           </div>
         </div>
-    
-      
   </form>
+</div>
+<div class="container-2">
+    <label class="phoneNumber">Müraciətin növü</label>
+    <div class="form-group">
+        <select class="form-control" name="offerType" id="offerType" >
+          <option class="secin">Seçin</option>
+          <option value="ərizə">Ərizə</option>
+          <option value="təklif">Təklif</option>
+          <option value="şikayət">Şikayət</option>
+        </select>
+      </div> <br> <br>
+      <label class="phoneNumber">Müraciətin qısa məzmunu</label>
+      <div class="form-group">
+        <select class="form-control" name="offerType" id="offerType" >
+          <option class="secin">Seçin</option>
+          <option value="muracet">Məhsul və xidmətlər barədə yalnış reklam</option>
+          <option value="muracet">Saxlanc xidməti ilə bağlı</option>
+          <option value="muracet">Kreditin verilməməsi ilə bağlı</option>
+          <option value="muracet">Kreditə güzəşt edilməsi</option>
+          <option value="muracet">Kreditin ödəniş qrafikinin və cərimələrin hesablanması</option>
+          <option value="muracet">Girov predmeti ilə bağlı</option>
+          <option value="muracet">Zaminlik ilə bağlı</option>
+          <option value="muracet">Depozitə hesablanmış faizlərlə bağlı</option>
+          <option value="muracet">Plastik kartlarda oğurluq halları</option>
+          <option value="muracet">ATM ilə bağlı</option>
+          <option value="muracet">Müştəri xidmətinin keyfiyyəti</option>
+          <option value="muracet">Sifariş olunmuş kartın vaxtında verilməməsi</option>
+        </select>
+    </div>
+      <div class="form-group">
+        <textarea class="form-control" name="content" id="content" style="resize:none;"  placeholder="Müraciətin məzmunu*" ></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Göndər</button>
+
 </div>
 
 
