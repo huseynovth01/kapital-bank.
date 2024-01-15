@@ -16,10 +16,12 @@
     <!-- Name -->
     <div class="form-group">
       <input type="text" class="form-control" name="name" id="name" placeholder="Ad" >
+      <div class="name-message"> </div>
     </div> <br>
     <!-- Surname -->
     <div class="form-group">
         <input type="text" class="form-control" name="name" id="name" placeholder="Soyad" >
+        <div class="surname-message"> </div>
       </div> <br>
     <!-- Father name -->
     <div class="form-group">
@@ -28,6 +30,7 @@
     <!-- Email -->
     <div class="form-group">
         <input type="email" class="form-control" name="email" id="email" placeholder="E-mail unvani">
+        <div class="email-message"> </div>
       </div> <br>
 
     <!--Mobil nomre -->
@@ -44,7 +47,7 @@
                 <option value="077">077</option>
                 <option value="012">012</option>
             </select>
-            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="-------" required>
+            <input type="number" id="phoneNumber" name="phoneNumber" placeholder="-------" required>
           </div>
         </div>
   </form>
@@ -80,12 +83,17 @@
       <div class="form-group">
         <textarea class="form-control" name="content" id="content" style="resize:none;"  placeholder="Müraciətin məzmunu*" ></textarea>
       </div>
-      <button type="submit" class="btn btn-primary btn-block">Göndər</button>
+      <button type="submit" class="sumbit">Göndər</button>
 
 </div>
 
-
-
+<div id="messageDisplay" style="display: none" >
+  <div style="text-align: center;">
+    <img class="message-img" src="" alt="Success"/>
+    <h3 class="message-title" ></h3>
+    <p class="message-content" ></p>
+  </div>
+</div>
 
     <script src="./js/main.js"></script>
 </body>
