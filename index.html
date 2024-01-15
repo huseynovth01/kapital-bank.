@@ -12,25 +12,27 @@
 <!------------------------------------->
 
 <div class="container">
-    <form id="appealsForm">
+    <form id="firstform">
     <!-- Name -->
     <div class="form-group">
-      <input type="text" class="form-control" name="name" id="name" placeholder="Ad" >
-      <div class="name-message"> </div>
+      <input type="text" class="form-control" name="name" id="name" placeholder="Ad" required >
+      <div class="namemessage"> </div>
     </div> <br>
     <!-- Surname -->
     <div class="form-group">
-        <input type="text" class="form-control" name="name" id="name" placeholder="Soyad" >
-        <div class="surname-message"> </div>
+        <input type="text" class="form-control" name="name" id="name" placeholder="Soyad" required >
+        <div class="surnamemessage"> </div>
       </div> <br>
     <!-- Father name -->
     <div class="form-group">
-        <input type="text" class="form-control" name="name" id="name" placeholder="Ata adi" >
+        <input type="text" class="form-control" name="name" id="name" placeholder="Ata adi" required >
       </div> <br>
+      <div class="fathernamemessage"> </div>
+
     <!-- Email -->
     <div class="form-group">
-        <input type="email" class="form-control" name="email" id="email" placeholder="E-mail unvani">
-        <div class="email-message"> </div>
+        <input type="email" class="form-control" name="email" id="email" placeholder="E-mail unvani" required >
+        <div class="emailmessage"> </div>
       </div> <br>
 
     <!--Mobil nomre -->
@@ -38,7 +40,7 @@
         <label class="phoneNumber">Mobile Number:</label>
         <div class="input-group">
           <div class="combined-input">
-            <select id="countryCode" name="countryCode">
+            <select id="countryCode" name="countryCode"required >
                 <option value="050">050</option>
                 <option value="051">051</option>
                 <option value="010">010</option>
@@ -50,8 +52,11 @@
             <input type="number" id="phoneNumber" name="phoneNumber" placeholder="-------" required>
           </div>
         </div>
+        <button type="submit" class="sumbit">Göndər</button>
   </form>
 </div>
+
+
 <div class="container-2">
     <label class="phoneNumber">Müraciətin növü</label>
     <div class="form-group">
@@ -83,9 +88,8 @@
       <div class="form-group">
         <textarea class="form-control" name="content" id="content" style="resize:none;"  placeholder="Müraciətin məzmunu*" ></textarea>
       </div>
-      <button type="submit" class="sumbit">Göndər</button>
-
 </div>
+
 
 <div id="messageDisplay" style="display: none" >
   <div style="text-align: center;">

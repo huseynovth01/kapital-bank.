@@ -18,7 +18,7 @@ body {
 
 .container{
     background-color: #E8ECF1;
-    #appealsForm{
+    #firstform{
         width: 550px;
         padding: 20px;
         .form-group{
@@ -74,29 +74,8 @@ body {
         border: 1px solid #ccc;
         border-radius: 4px;
       }
-}
 
-.container-2{
-    width: 380px;
-    margin-top: 8%;
-    .form-control{
-        padding-left: 30px;
-        position: relative;
-        width: 380px;
-        height: 50px;
-        border-radius: 4px;
-        margin-top: 20px;
-        border: 1px solid #ddd;
-        margin-top: 20px;
-        border-radius: 9px;
-    }
-    #content{
-        width: 350px;
-        height: 250px;
-        border-radius: 9px;
-
-    }
-    button {
+      button {
         background-color: #F45369;
         color: #fff;
         padding: 15px 80px;
@@ -105,13 +84,38 @@ body {
         cursor: pointer;
         font-size: 15px;
         transition: 0.5s;
-        margin-top: 7%;
-        margin-left: 46%;
+        margin-top: 30px;
+      
       }
       
       button:hover {
         background-color: #aa2537;
         transition: ease 0.6s;
       }
+      
+
+}
+
+
+
+.container-2{
+    width: 380px;
+    .form-control{
+        padding-left: 30px;
+        position: relative;
+        width: 380px;
+        height: 50px;
+        border-radius: 4px;
+        margin-top: 20px;
+        border: 1px solid #ddd;
+        border-radius: 9px;
+    }
+    #content{
+        width: 350px;
+        height: 250px;
+        border-radius: 9px;
+
+    }
+
 }
   

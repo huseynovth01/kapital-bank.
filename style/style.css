@@ -17,15 +17,15 @@ body {
 .container {
   background-color: #E8ECF1;
 }
-.container #appealsForm {
+.container #firstform {
   width: 550px;
   padding: 20px;
 }
-.container #appealsForm .form-group {
+.container #firstform .form-group {
   position: relative;
   background-color: transparent;
 }
-.container #appealsForm .form-group .form-control {
+.container #firstform .form-group .form-control {
   padding-left: 30px;
   position: relative;
   width: 370px;
@@ -64,10 +64,24 @@ body {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+.container button {
+  background-color: #F45369;
+  color: #fff;
+  padding: 15px 80px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.5s;
+  margin-top: 30px;
+}
+.container button:hover {
+  background-color: #aa2537;
+  transition: ease 0.6s;
+}
 
 .container-2 {
   width: 380px;
-  margin-top: 8%;
 }
 .container-2 .form-control {
   padding-left: 30px;
@@ -77,27 +91,10 @@ body {
   border-radius: 4px;
   margin-top: 20px;
   border: 1px solid #ddd;
-  margin-top: 20px;
   border-radius: 9px;
 }
 .container-2 #content {
   width: 350px;
   height: 250px;
   border-radius: 9px;
-}
-.container-2 button {
-  background-color: #F45369;
-  color: #fff;
-  padding: 15px 80px;
-  border: none;
-  border-radius: 7px;
-  cursor: pointer;
-  font-size: 15px;
-  transition: 0.5s;
-  margin-top: 7%;
-  margin-left: 46%;
-}
-.container-2 button:hover {
-  background-color: #aa2537;
-  transition: ease 0.6s;
 }/*# sourceMappingURL=style.css.map */
